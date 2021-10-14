@@ -264,9 +264,9 @@ header {
   transition: max-height 0.4s ease-in;
 }
 
+/* .helpbox__container:focus-within > .helpbox__description {  */
 /* .helpbox__description:hover, */
 .helpbox:focus + .helpbox__description {
-/* .helpbox__container:focus-within > .helpbox__description {  */
   max-height: 100rem;
   transition: max-height 0.65s ease-in-out;
   transition-delay: 0.55s;
