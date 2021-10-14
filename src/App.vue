@@ -16,8 +16,8 @@
                 home
                 <v-icon>mdi-home</v-icon> 
               </v-tab>
-              <v-tab href="#film"> 
-                film
+              <v-tab href="#art"> 
+                art
                 <v-icon>mdi-video-vintage</v-icon> 
               </v-tab>
               <v-tab href="#about"> 
@@ -32,7 +32,7 @@
 
         <v-main>
           <v-tabs-items v-model="tab">
-            <v-tab-item value="film">
+            <v-tab-item value="art">
               <div class="text-center helpbox__container my-2">
                 <a href="#" class="helpbox">
                   <v-icon class="text-h3 grey--text">mdi-help-box</v-icon>
