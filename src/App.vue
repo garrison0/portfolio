@@ -218,13 +218,14 @@ header {
 
 .text-inner-shadow {
    margin-right: 21px;
-   opacity: 30%;
+   opacity: 0.3;
    /* color: rgb(0,0,0,0.4); */
    color: #6c4d6f;
    text-shadow: 2px 2px 2px #3d313f;
 }
 
 .grid__item {
+  opacity: 1.0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +237,7 @@ header {
 }
 
 .grid__item:focus, .grid__item:hover{ 
-  opacity: 50%;
+  opacity: 0.5;
   transition: opacity 0.125s ease-in-out;
 }
 
@@ -247,12 +248,12 @@ header {
 }
 
 .helpbox { 
-  opacity: 50%;
+  opacity: 0.5;
   text-decoration: none;
 }
 
 .helpbox:focus, .helpbox:hover, helpbox:focus-within { 
-  opacity: 100%;
+  opacity: 1.0;
   transition: opacity 0.125s ease-in-out;
 }
 
