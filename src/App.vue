@@ -50,7 +50,7 @@
                 </div>
               </div>
               <div class="grid">
-                <a href="#" class="grid__item" tabindex="1">
+                <a class="grid__item" tabindex="1">
                   <v-img
                   class="fill-height"
                   src="./assets/sound.png">
@@ -59,7 +59,7 @@
                 <GridItem title="the sound of becoming" link="https://youtu.be/MZFCyl8PQQo" 
                           description="dual piece of ‘the look of becoming.’ here, the video starts with the conceptual - a kettle displayed in gory, surgical, textural detail, whose realism and objecthood gets disrupted periodically by a nondescript, flowing emulsion. the sound contrasts this with a strictly connotative or otherwise ambiguous sense-based collage of field recordings periodically rising up from the stretched sound of a kettle heating water. this piece is something like an ode to the fine-grained richness of qualia beyond concepts " />
 
-                <a href="#" class="grid__item" tabindex="2">
+                <a class="grid__item" tabindex="2">
                   <v-img
                     class="fill-height"
                     src="./assets/look.png">
@@ -71,7 +71,7 @@
                                       to further the contrast of sensible vs senseless, conceptual vs non-conceptual, narrative vs non-narrative ‘scene setting’, the sounds are roughly organized according to the connotations of the seasons. in fact, i decided to use the collage of sounds and seasons to approximately narrate the two year period of my life in which i recorded most of the sounds — the end of college, my past relationship, my first time traveling abroad, and my fruitless return. this was my regulative principle. since these sounds are so evocative for me, this piece is personally something like a memory palace" />
                 
                 
-                <a href="#" class="grid__item" tabindex="3">
+                <a class="grid__item" tabindex="3">
                   <v-img
                     class="fill-height"
                     src="./assets/out.png">
@@ -82,7 +82,7 @@
               </div>
 
               <div class="grid">
-                <a href="#" class="grid__item" tabindex="4">
+                <a class="grid__item" tabindex="4">
                   <v-img
                     class="fill-height"
                     src="./assets/lux.png">
@@ -90,7 +90,7 @@
                 </a>
                 <GridItem link="https://vimeo.com/548509429" title="lux mundi" description="the airy light fades like a flag in the wind, changing like the constant rhythmic clacking of train tracks, recorded on an overpass over the long island railroad in long island city, and once more from my apartment window" />
 
-                <a href="#" class="grid__item" tabindex="5">
+                <a class="grid__item" tabindex="5">
                   <v-img
                     class="fill-height"
                     src="./assets/rolling.png">
@@ -99,7 +99,7 @@
                 <GridItem title="rolling ground memory, a pile mooring" link="https://youtu.be/BUo2qh0CX8Q" 
                           description="‘wetness’ contrasted with ‘flow’. the primary watery figure refracts onto a town square like a hazy memory. the hermit thrush’s slowed down song fades into the rich aether and then the rumbling waterfall of pipes. partially inspired by Clyfford Still’s 1944-N No. 2" />
                 
-                <a href="#" class="grid__item" tabindex="6">
+                <a class="grid__item" tabindex="6">
                   <v-img
                     class="fill-height"
                     src="./assets/torpor.png">
