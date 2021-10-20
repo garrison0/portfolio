@@ -57,7 +57,7 @@
                   </v-img> 
                 </a>
                 <GridItem title="the sound of becoming" link="https://youtu.be/MZFCyl8PQQo" 
-                          description="dual piece of ‘the look of becoming.’ here, the video starts with the conceptual - a kettle displayed in gory, surgical, textural detail, whose realism and objecthood gets disrupted periodically by a nondescript, flowing emulsion. the sound contrasts this with a strictly connotative or otherwise ambiguous sense-based collage of field recordings periodically rising up from the stretched sound of a kettle heating water. this piece is something like an ode to the fine-grained richness of qualia beyond concepts " />
+                          description="dual piece of ‘the look of becoming.’ here, the video starts with the conceptual - a kettle displayed in gory, surgical, textural detail, whose realism and objecthood gets disrupted periodically by a nondescript, flowing emulsion. the sound contrasts this with a strictly connotative or otherwise ambiguous sense-based collage of field recordings periodically rising up from the stretched sound of a kettle heating water. this may affect how you construe the visual. this piece is something like an ode to the fine-grained richness of qualia beyond concepts " />
 
                 <a class="grid__item" tabindex="2">
                   <v-img
