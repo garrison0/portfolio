@@ -129,7 +129,7 @@
                     Programmer Writer
                   </v-col>
                   <v-col class="col-9 text-h6 pt-0 pb-0">
-                    founder of <a href="https://www.philterms.org">Philosophy Terms</a>
+                    founder of <a target="_blank" href="https://www.philterms.org">Philosophy Terms</a>
                   </v-col>
                   <v-col class="col-9">
                     likes full stack, writing, graphics, music, art, and armchair academics
