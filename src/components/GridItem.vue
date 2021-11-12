@@ -10,7 +10,7 @@
         </v-col>
       </v-row>
       <v-divider class="my-3"></v-divider>
-      <v-row class="my-5 justify-center" :class="{ 'mx-5': $vuetify.breakpoint.smAndUp}">
+      <v-row class="my-5 justify-center" :class="{ 'mx-5': $vuetify.breakpoint.smAndUp }">
         <v-col class="col-12"> 
           <v-row class="justify-center">
             <v-col class="col-2 col-sm-1">

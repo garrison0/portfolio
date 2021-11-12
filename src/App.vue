@@ -26,7 +26,7 @@
               </v-tab>
             </v-tabs>
             <div class="text-h5 text-inner-shadow"
-                 v-if="$vuetify.breakpoint.smAndUp">♑︎♋︎❒︎❒︎♓︎⬧︎□︎■︎</div>
+                 v-if="$vuetify.breakpoint.smAndUp">❄️ 🌱🌻🍂</div>
           </template>
         </v-app-bar>
 
@@ -125,10 +125,14 @@
                   <v-col class="col-9 text-h4">
                     Garrison McMullen
                   </v-col>
-                </v-row>
-                <v-row class="justify-center mt-0">
+                  <v-col class="col-9 text-h5 pt-0 pb-0">
+                    Programmer Writer
+                  </v-col>
+                  <v-col class="col-9 text-h6 pt-0 pb-0">
+                    founder of <a href="https://www.philterms.org">Philosophy Terms</a>
+                  </v-col>
                   <v-col class="col-9">
-                    likes full stack, graphics, music, art, and armchair academics
+                    likes full stack, writing, graphics, music, art, and armchair academics
                     <br /> based in NYC
                   </v-col>
                 </v-row>
