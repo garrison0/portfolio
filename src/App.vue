@@ -25,8 +25,12 @@
                 <v-icon>mdi-account</v-icon> 
               </v-tab>
             </v-tabs>
-            <div class="text-h5 text-inner-shadow"
-                 v-if="$vuetify.breakpoint.smAndUp">❄️ 🌱🌻🍂</div>
+            <div class="text-h5 text-inner-shadow" v-if="$vuetify.breakpoint.smAndUp">
+              <span :class="{ 'text-transparent': !(month <= 2 || month == 12) }">❄️ </span>
+              <span :class="{ 'text-transparent': !(month >= 3 && month < 6) }">🌱 </span>
+              <span :class="{ 'text-transparent': !(month >= 6 && month < 9) }">🌻 </span>
+              <span :class="{ 'text-transparent': !(month >= 9 && month < 12) }">🍂 </span>
+            </div>
           </template>
         </v-app-bar>
 
@@ -114,8 +118,7 @@
                     <a target="_blank" href="https://www.philterms.org">Philosophy Terms</a>
                   </v-col>
                   <v-col class="col-9">
-                    likes full stack, writing, graphics, music, art, and armchair academics
-                    <br /> based in NYC
+                    based in NYC
                   </v-col>
                 </v-row>
                 <v-row class="my-7">
@@ -127,7 +130,7 @@
                       elevation="2"
                     ><v-icon>mdi-youtube</v-icon></v-btn>
                   </div>
-                  <div class="mx-5">
+                  <div class="ml-5">
                     <v-btn
                       href="https://www.linkedin.com/in/garrisonmcmullen"
                       target="_blank"
@@ -136,12 +139,7 @@
                     ><v-icon>mdi-linkedin</v-icon></v-btn>
                   </div>
                   <div class="mr-auto">
-                    <v-btn
-                      href="https://www.paypal.com/paypalme/moodmusic"
-                      target="_blank"
-                      class="red"
-                      elevation="2"
-                    >donate &nbsp; <v-icon>mdi-heart-circle</v-icon></v-btn>
+                    <!--  -->
                   </div>
                 </v-row>
               </v-container>
@@ -156,7 +154,6 @@
 <script>
 import WebGL from './components/WebGL';
 
-
 export default {
   name: 'App',
 
@@ -166,6 +163,7 @@ export default {
 
   data: () => ({
     tab: 'home',
+    month: (new Date()).getMonth(),
   }),
 };
 </script>
@@ -200,11 +198,12 @@ header {
   max-width: 950px!important;
 }
 
+.text-transparent { 
+  opacity: 0.3;
+}
+
 .text-inner-shadow {
    margin-right: 21px;
-   opacity: 0.3;
-   /* color: rgb(0,0,0,0.4); */
-   color: #6c4d6f;
    text-shadow: 2px 2px 2px #3d313f;
 }
 
