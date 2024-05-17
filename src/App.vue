@@ -115,6 +115,9 @@
                     Programmer Writer
                   </v-col>
                   <v-col class="col-9 text-h6 pt-0 pb-0">
+                    <a target="_blank" href="https://raymarchingfundamentals.org/">Raymarching Fundamentals</a>
+                  </v-col>
+                  <v-col class="col-9 text-h6 pt-0 pb-0">
                     <a target="_blank" href="https://www.philterms.org">Philosophy Terms</a>
                   </v-col>
                   <v-col class="col-9">
